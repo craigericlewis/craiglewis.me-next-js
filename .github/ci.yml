@@ -1,0 +1,17 @@
+name: Deploy CI
+on: [push] # Run on Push and Pull Requests
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: Install dependencies
+        run: npm install
+      - name: Lint code
+        run: npm run lint
+      - name: Build with Next
+        run: npm run build
