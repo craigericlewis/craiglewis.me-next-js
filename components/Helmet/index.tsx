@@ -1,10 +1,5 @@
 import React from 'react';
-import { Helmet as RtHelmet } from 'react-helmet';
-import {
-  FaviconICO,
-  Favicon32PNG,
-  Favicon16PNG,
-} from '../../assets/images/index';
+import Head from 'next/head'
 
 const seoDescription =
   "Craig Lewis' personal website, computer science student at the University of Waterloo";
@@ -18,17 +13,17 @@ const Helmet: React.FC<HelmetProps> = ({
   pageTitle,
   description = seoDescription,
 }) => (
-  <RtHelmet>
+  <Head>
     <meta charSet="utf-8" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <link rel="icon" type="image/png" sizes="32x32" href={Favicon32PNG} />
-    <link rel="icon" type="image/png" sizes="16x16" href={Favicon16PNG} />
-    <link rel="shortcut icon" href={FaviconICO} />
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png" />
+    <link rel="shortcut icon" href="/static/favicon/favicon.ico" />
     <meta property="og:description" content={description} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:type" content="website" />
-  </RtHelmet>
+  </Head>
 );
 
 export default Helmet;
