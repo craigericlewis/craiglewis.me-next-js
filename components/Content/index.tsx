@@ -55,7 +55,7 @@ const Content: React.FC<Props> = ({ title, children }) => {
   return (
     <OuterContainer ref={ref}>
       <Title titleMargin={titleMargin}>
-        <Text size={titleSize} as={'h2'}>
+        <Text size={titleSize} as={'h2'} color='black'>
           {title}
         </Text>
       </Title>

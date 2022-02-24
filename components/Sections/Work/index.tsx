@@ -112,7 +112,7 @@ const Work: React.FC = () => {
   );
 
   return (
-    <Content title={'Work.'}>
+    <Content title={'Co-Ops.'}>
       <Subsection
         color={themeColors.red}
         title={'Riot Games'}
