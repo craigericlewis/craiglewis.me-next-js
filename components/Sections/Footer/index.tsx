@@ -121,9 +121,9 @@ const Footer: React.FC = () => {
             lineHeight={'1.9em'}
           >
             {"If I'm not feeding in League of Legends "}
-            {'or engrossed in an obscure indie game, '}
-            {'you can probably find me tinkering around '}
-            {'in some random code base.'}
+            {'or addicted to an obscure indie game, '}
+            {'you can probably find me reading studies '}
+            {'that I find interesting.'}
           </Description>
           <Name color={theme.color.white} size={'18px'} lineHeight={'1.9em'}>
             {'Craig Eric Lewis'}
