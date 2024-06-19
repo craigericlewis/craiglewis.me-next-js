@@ -8,25 +8,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "14.2.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-mt-svg-lines": "^0.9.1",
-    "react-spinners": "^0.11.0",
-    "sharp": "^0.30.0",
-    "styled-components": "^5.3.3",
+    "react-spinners": "^0.13.8",
+    "sharp": "^0.33.4",
+    "styled-components": "^6.1.11",
     "svg-react-loader": "^0.4.6"
   },
   "devDependencies": {
-    "@svgr/webpack": "^6.2.1",
-    "@types/node": "17.0.15",
-    "@types/react": "17.0.39",
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "20.14.6",
+    "@types/react": "18.3.3",
     "@types/react-helmet": "^6.1.5",
     "@types/styled-components": "^5.1.22",
-    "eslint": "8.8.0",
-    "eslint-config-next": "12.0.10",
+    "eslint": "9.5.0",
+    "eslint-config-next": "14.2.4",
     "file-loader": "^6.2.0",
-    "prettier": "^2.5.1",
-    "typescript": "4.5.5"
+    "prettier": "^3.3.2",
+    "typescript": "5.4.5"
   }
 }

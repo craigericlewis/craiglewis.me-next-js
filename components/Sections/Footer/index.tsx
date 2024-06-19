@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
             color={theme.color.white}
             align={'left'}
             bold={true}
-            underline={isHovered}
+            underline={isHovered.toString()}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             onClick={() => emailClick()}
@@ -136,7 +136,7 @@ const Footer: React.FC = () => {
             hoverFill={theme.color.lightBlue}
           />
         </SubFooter>
-        {showMe && <MyPicture src="/static/me.jpeg" height="580px" width="600px"/>}
+        {showMe && <MyPicture src="/static/me.jpeg" height="580" width="600"/>}
       </SubsectionContainer>
     </Content>
   );

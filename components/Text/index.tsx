@@ -13,7 +13,7 @@ export interface TextProps extends BaseElementProps {
   lineHeight?: string;
   align?: 'left' | 'right' | 'center' | 'justify';
   heading?: boolean; // affects font family
-  underline?: boolean;
+  underline?: string;
   bold?: boolean;
   italic?: boolean;
   transform?: string;
