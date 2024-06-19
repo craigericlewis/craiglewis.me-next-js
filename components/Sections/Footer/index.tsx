@@ -56,7 +56,7 @@ const Divider = styled.div`
 `;
 
 const Description = styled(Text)`
-  max-width: 60%;
+  max-width: 70%;
   margin: 0 0 2em;
   margin-left: 50px;
 `;
@@ -67,7 +67,7 @@ const Name = styled(Text)`
 
 const emailClick = () => {
   if (typeof window !== 'undefined') {
-    window.location.href = 'mailto:celewis@uwaterloo.ca';
+    window.location.href = 'mailto:craigericlewis@gmail.com';
   }
 };
 
@@ -110,9 +110,9 @@ const Footer: React.FC = () => {
             onMouseLeave={() => setIsHovered(false)}
             onClick={() => emailClick()}
           >
-            {'celewis'}
+            {'craigericlewis'}
             <br />
-            {'@uwaterloo.ca'}
+            {'@gmail.com'}
           </Email>
           <Divider />
           <Description
@@ -120,13 +120,11 @@ const Footer: React.FC = () => {
             size={'16px'}
             lineHeight={'1.9em'}
           >
-            {"If I'm not feeding in League of Legends "}
-            {'or addicted to an obscure indie game, '}
-            {'you can probably find me reading studies '}
-            {'that I find interesting.'}
+            {"If I'm not feeding in League of Legends you "}
+            {'can probably find me addicted to an obscure indie game'}
           </Description>
           <Name color={theme.color.white} size={'18px'} lineHeight={'1.9em'}>
-            {'Craig Eric Lewis'}
+            {'Craig Lewis'}
           </Name>
           <Socials
             margin={'30px 0px 46px 45px'}

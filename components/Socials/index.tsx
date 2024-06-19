@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import IconHolder from './IconHolder';
-// import Resume from '../../public/static/Resume.pdf';
 
 interface Props {
   margin: string;
@@ -24,7 +23,7 @@ const linkedinURL = 'https://www.linkedin.com/in/craig-eric-lewis/';
 
 const githubURL = 'https://github.com/craigericlewis';
 
-const emailURL = 'mailto:celewis@uwaterloo.ca';
+const emailURL = 'mailto:craigericlewis@gmail.com';
 
 const resumeURL = '/static/Resume.pdf'
 
